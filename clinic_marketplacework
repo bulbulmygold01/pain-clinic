@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Anaesthesia & Pain</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+		<div class="header">
+			<div class="logo">
+				<img style="width:120px; height:100%; margin-left:150px;" src="img/m-removebg-preview.png">
+			</div>
+			<div class="title">
+				<h2 style="color:#ffffff; margin-top: 20px; font-size: 32px;">Anaesthesia & Pain</h2>
+			</div>
+			<div class="main_menu">
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="https://stopmypain.com.au/2rj6-27-nedlands-western-australia">Location</a></li>
+					<li><a href="https://stopmypain.com.au/contact-us">Contact us</a></li>
+					<li><a href="https://stopmypain.com.au/faq">FAQ</a></li>
+					<li><a href="https://stopmypain.com.au/forms-to-fill">Forms to fill</a></li>
+					<li><a href="https://stopmypain.com.au/about-us">About Us</a></li>
+					<li><a href="https://stopmypain.com.au/gallery">Gallery</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Hero -->
+
+		<div class="hero">
+			<h2>Welcome to Anaesthesia & Pain</h2>
+			<hr>
+			<h4>Where the root cause of your pain is identified and treated</h4>
+			<button>Read more</button>
+		</div>
+
+		<!-- Body -->
+
+		<div class="body">
+			<div class="body_menu">
+				<ul id="bmenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="https://stopmypain.com.au/2rj6-27-nedlands-western-australia">Location</a></li>
+					<li><a href="https://stopmypain.com.au/contact-us">Contact us</a></li>
+					<li><a href="https://stopmypain.com.au/faq">FAQ</a></li>
+					<li><a href="https://stopmypain.com.au/forms-to-fill">Forms to fill</a></li>
+					<li><a href="https://stopmypain.com.au/about-us">About Us</a></li>
+					<li><a href="https://stopmypain.com.au/gallery">Gallery</a></li>
+				</ul>
+			</div>
+
+			<hr>
+
+			<div class="body_content">
+				<div class="body_left">
+					<h2>Address</h2>
+					<p>
+						Prof. Krishna Boddu, Suite 32 Hollywood Specialist Centre, 95 Monash Ave Nedlands, 60009, AU
+					</p>
+					<p class="ptwo">
+						0413147246 &nbsp;&nbsp; &nbsp;&nbsp; admin@stopmypain.com.au
+					</p>
+				</div>
+				<div class="body_right">
+					<h2>About us</h2>
+					<p>
+						Prof. Krishna Boddu is a specialist anaesthetist with substantial experience in pain management. <br><br>
+
+						Areas of special interest: Nerve entrapment syndromes Abdominal pain syndromes Musculoskeletal Pain syndromes <br><br>
+
+						Pain management technique: Identify and treat the root cause of pain by mapping, sonography and other investigations. Treat the pain with regional techniques, rather than mask the pain with opioids, atypical opioids and other medications <br><br>
+
+						Prof. Boddu does not prescribe or sign off on schedule 8 medications
+					</p>
+				</div>
+				<div class="clearfix">
+					
+				</div>
+				
+
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<div class="footer">
+			<p>© Copyright 2023 | All rights reserved | Anaesthesia & Pain | Design & Developed by <a style="text-decoration: none;"  href="https://www.freelancer.com/u/devmijan07"> <b style="color: green;">Mizan ®</b> </a></p>
+		</div>
+
+
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
+
+Css
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	background: black;
+}
+.header .logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.header .title{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.header .main_menu{
+	width: 60%;
+	height: 100%;
+	float: left;
+
+}
+.body_menu{
+
+}
+
+#menu {
+    list-style-type: none;
+    width: 780px;
+    background:  rgb(25 205 72 / 10%) -10px 10px;
+    margin: 0 auto;
+    min-height: 39px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgb(0 143 245 / 40%) -5px 5px;
+}
+#menu li{
+	float: left;
+	margin-right: 5px;	
+}
+#menu li:hover{
+	
+	border-bottom: 2px solid #1a8bc7;
+	
+}
+
+#menu li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 25px;
+	display: block;
+}
+
+/*Hero*/
+
+.hero{
+	width: 100%;
+	height: 400px;
+	background: url("img/01.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hero h2 {
+    color: #ffffff;
+    padding-top: 90px;
+    font-size: 68px;
+    text-align: center;
+}
+
+.hero hr {
+    width: 200px;
+    margin-left: 824px;
+    margin-top: 19px;
+}
+.hero h4 {
+    color: #ffffff;
+    padding-top: 26px;
+    font-size: 19px;
+    text-align: center;
+}
+.hero button {
+    margin-left: 873px;
+    margin-top: 34px;
+    border: 2px solid #ffffff;
+    background: black;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 22px;
+}
+/*Body*/
+
+.body{
+	width: 100%;
+	height: 400px;
+	background: #212121;
+}
+
+
+#bmenu {
+    list-style-type: none;
+    width: 1020px;
+    margin: 0 auto;
+    min-height: 39px;
+    padding-top: 30px;
+    margin-left: 178px;
+}
+#bmenu li{
+	float: left;
+}
+#bmenu li:hover{
+	
+	border-bottom: 2px solid #1a8bc7;
+	
+}
+
+#bmenu li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 25px;
+	display: block;
+	font-size: 18px;
+}
+
+
+.body hr {
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.body_content{
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+}
+.body_content .body_left{
+	width: 50%;
+	height: 60%;
+	float: left;
+
+}
+.body_content .body_left h2{
+	color: #ffffff;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 35px;
+}
+.body_content .body_left p{
+	color: #ffffff;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 22px;
+}
+.body_content .body_left .ptwo{
+	color: #ffffff;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+
+.body_content .body_right{
+	width: 50%;
+	height: 60%;
+	float: left;
+
+}
+
+.body_content .body_right h2{
+	color: #ffffff;
+	margin-top: 30px;
+	margin-left: 10px;
+	font-size: 35px;
+}
+.body_content .body_right p{
+	color: #ffffff;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #000000;
+}
+.footer p {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 31px;
+}
+
+
